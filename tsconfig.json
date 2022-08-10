@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node"
+    },
+    "exclude": ["node_modules", "tests"],
+    "include": ["src"]
+}
